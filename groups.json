@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "demo",
+        "members": [
+            "Saksham",
+            "Rudransh"
+        ],
+        "expenses": [
+            {
+                "id": 1,
+                "description": "120 for samosa",
+                "amount": "120.00",
+                "paid_by": "Saksham",
+                "participant": [
+                    "Rudransh"
+                ],
+                "shares": {
+                    "Rudransh": "120.00"
+                }
+            },
+            {
+                "id": 1,
+                "description": "samosa",
+                "amount": "120.00",
+                "paid_by": "Saksham",
+                "participant": [
+                    "Saksham",
+                    "Rudransh"
+                ],
+                "shares": {
+                    "Saksham": "60.00",
+                    "Rudransh": "60.00"
+                }
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "demo2",
+        "members": [
+            "Saksham",
+            "Ayush"
+        ],
+        "expenses": []
+    }
+]
